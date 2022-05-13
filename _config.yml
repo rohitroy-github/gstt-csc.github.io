@@ -11,26 +11,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# TODO: fix these theme settings properly
-# theme: jekyll-theme-cayman  # uncomment if problems with GitHub pages when pushing live site
-theme: jekyll-theme-cayman
-
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : ""  # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 
-title      : CSC
-#logo       : "assets/img/logo_small.png"
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+title: CSC
+description: Clinical Scientific Computing @ Guy's & St Thomas NHS Foundation Trust
+email: CSCTeam@gstt.nhs.uk
 
 locale: "en-US" # See available languages in _data/sitetext.yml
-
-analytics:
-  google: #Google Analytics tracking code here
 
 collections:
   team_member:
